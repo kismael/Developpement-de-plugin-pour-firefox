@@ -1,0 +1,114 @@
+/* Taille fixe du popup Firefox */
+body {
+  width: 350px;
+  min-height: 200px;
+  font-family: Arial, sans-serif;
+  padding: 12px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 16px;
+  color: #2b5797;
+  margin: 0 0 8px 0;
+}
+.lien-item {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.lien-item a {
+  color: #2b5797;
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+  word-break: break-all;
+}
+
+.lien-item a:hover {
+  text-decoration: underline;
+}
+#zone-filtre {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+#champ-filtre {
+  flex: 1;
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+button {
+  padding: 4px 8px;
+  background: #2b5797;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+button:hover { background: #1a3d6e; }
+
+.zone-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.tag {
+  background: #e8f0fe;
+  color: #2b5797;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+.champ-tag {
+  width: 70px;
+  padding: 2px 4px;
+  border: 1px dashed #aaa;
+  border-radius: 10px;
+  font-size: 11px;
+  outline: none;
+}
+#onglets {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.onglet {
+  flex: 1;
+  background: #eee;
+  color: #333;
+}
+
+.onglet.actif {
+  background: #2b5797;
+  color: white;
+}
+
+.lien-partage {
+  border-left: 3px solid #2b5797;
+  padding-left: 8px;
+}
+
+.meta-partage {
+  font-size: 10px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.btn-partager {
+  font-size: 10px;
+  padding: 2px 6px;
+  background: #4CAF50;
+  margin-top: 4px;
+}   

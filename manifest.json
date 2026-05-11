@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "HistoShare",
+  "version": "1.0",
+  "description": "Partage d'historique de navigation avec tags",
+
+  "permissions": [
+    "history",
+    "storage",
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "https://*.firebaseio.com/*"
+  ],
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "HistoShare"
+  }
+}

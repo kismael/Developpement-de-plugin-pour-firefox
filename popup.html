@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+  <title>HistoShare</title>
+</head>
+<body>
+
+  <h1>HistoShare</h1>
+
+  <!-- Onglets : Mon historique / Liens partagés -->
+  <div id="onglets">
+    <button id="onglet-local" class="onglet actif">Mon historique</button>
+    <button id="onglet-partage" class="onglet">Liens partagés</button>
+  </div>
+
+  <!-- Filtre (visible dans les deux vues) -->
+  <div id="zone-filtre">
+    <input type="text" id="champ-filtre" placeholder="Filtrer par tag...">
+    <button id="btn-filtrer">Filtrer</button>
+    <button id="btn-tout">Tout</button>
+  </div>
+
+  <!-- Contenu principal -->
+  <div id="liste-historique"><p>Chargement...</p></div>
+
+  <script src="sync.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
